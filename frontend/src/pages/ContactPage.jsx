@@ -229,7 +229,7 @@ const ContactPage = () => {
                     <div>
                       <h4 className="text-lg font-semibold text-teal-800">Phone</h4>
                       <a href="tel:+1234567890" className="text-gray-700 hover:text-teal-600 transition-colors">
-                        7806995525
+                        9876543210
                       </a>
                     </div>
                   </motion.div>
@@ -263,9 +263,9 @@ const ContactPage = () => {
                     <div>
                       <h4 className="text-lg font-semibold text-teal-800">Office</h4>
                       <p className="text-gray-700">
-                        123 Business Avenue<br />
-                        Tech City, TC 10001<br />
-                        United States
+                        SBM Colony<br />
+                        MGR Nagar<br />
+                        Hosur
                       </p>
                     </div>
                   </motion.div>
@@ -325,21 +325,6 @@ const ContactPage = () => {
               </div>
             </div>
           </div>
-        </div>
-      </div>
-
-      {/* Map Section */}
-      <div className="container mx-auto px-6 pb-16">
-        <div className="bg-white rounded-xl shadow-xl overflow-hidden">
-          <iframe
-            title="Office Location"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.2155732918656!2d-73.987844924686!3d40.74844047138911!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDQ0JzU0LjQiTiA3M8KwNTknMTkuMiJX!5e0!3m2!1sen!2sus!4v1620000000000!5m2!1sen!2sus"
-            width="100%"
-            height="400"
-            style={{ border: 0 }}
-            allowFullScreen=""
-            loading="lazy"
-          ></iframe>
         </div>
       </div>
     </div>

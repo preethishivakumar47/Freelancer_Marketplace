@@ -14,31 +14,13 @@ const AboutUs = () => {
       twitter: '#',
       linkedin: '#'
     },
-    {
-      id: 2,
-      name: 'Sarah Williams',
-      role: 'Design Director',
-      bio: 'Creative mind behind our stunning interfaces',
-      image: 'https://news.mit.edu/sites/default/files/images/202101/sarah-Williams.JPG',
-      twitter: '#',
-      linkedin: '#'
-    },
-    {
-      id: 3,
-      name: 'Michael Chen',
-      role: 'Lead Developer',
-      bio: 'Makes the impossible possible with code',
-      image: 'https://mba.hkubs.hku.hk/wp-content/uploads/2023/01/Michael-Chen-Thumbnail-2.jpg',
-      twitter: '#',
-      linkedin: '#'
-    }
   ];
 
   const stats = [
-    { value: '2015', label: 'Founded in' },
-    { value: '250+', label: 'Projects completed' },
+    { value: '2025', label: 'Founded in' },
+    { value: '100+', label: 'Projects completed' },
     { value: '98%', label: 'Client satisfaction' },
-    { value: '15', label: 'Team members' }
+    { value: '10', label: 'Team members' }
   ];
 
   return (
@@ -80,7 +62,7 @@ const AboutUs = () => {
             >
               <h2 className="text-3xl font-bold text-teal-800">Building the future, one pixel at a time</h2>
               <p className="text-gray-700">
-                Founded in 2015, we started as a small team of developers with a big dream. Today, we've grown into a full-service digital agency, but we've never lost our startup spirit or our commitment to excellence.
+                Founded in 2025, we started as a small team of developers with a big dream. Today, we've grown into a full-service digital agency, but we've never lost our startup spirit or our commitment to excellence.
               </p>
               <div className="grid grid-cols-2 gap-4 mt-8">
                 {stats.map((stat, index) => (

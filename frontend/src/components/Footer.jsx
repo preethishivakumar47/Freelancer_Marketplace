@@ -58,15 +58,7 @@ const Footer = () => {
             </p>
             <div className="flex space-x-5">
               <a
-                href="https://www.facebook.com/mst.afrin.528517"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-400 hover:text-teal-600 transition-colors duration-300 transform hover:scale-110"
-              >
-                <FaFacebook className="w-6 h-6" />
-              </a>
-              <a
-                href="https://www.instagram.com/afrin_6068/"
+                href="https://www.instagram.com/__preethi__.__05/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-teal-600 transition-colors duration-300 transform hover:scale-110"
@@ -74,7 +66,7 @@ const Footer = () => {
                 <FaInstagram className="w-6 h-6" />
               </a>
               <a
-                href="https://github.com/afrinbhuiyan"
+                href="https://github.com/preethishivakumar47"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-teal-600 transition-colors duration-300 transform hover:scale-110"
@@ -123,14 +115,14 @@ const Footer = () => {
               <div className="flex items-start space-x-4">
                 <MdPhone className="text-teal-700 mt-1 flex-shrink-0 text-xl" />
                 <a href="tel:+15551234567" className="text-gray-300 hover:text-teal-600 transition-colors">
-                  +91 7806995525
+                  +91 9876543210
                 </a>
               </div>
               <div className="flex items-start space-x-4">
                 <MdLocationOn className="text-teal-700 mt-1 flex-shrink-0 text-xl" />
                 <address className="text-gray-300 hover:text-teal-600 transition-colors not-italic">
                   123 Task Street<br />
-                  San Francisco, CA 94107
+                  Hosur
                 </address>
               </div>
             </div>
